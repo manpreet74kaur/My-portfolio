@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Sharma - Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #0077cc;
+      color: white;
+      border-radius: 8px;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
+    }
+
+    section {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0077cc;
+      margin-bottom: 15px;
+    }
+
+    .education ul,
+    .skills ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-left: 0;
+    }
+
+    .skills li {
+      background-color: #0077cc;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.95em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 15px;
+      background-color: #333;
+      color: white;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      section h2 {
+        font-size: 1.4em;
+      }
+
+      .skills ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .skills li {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <h1>Hi, I'm Rahul Sharma</h1>
+      <p>Web Developer | Student | Tech Enthusiast</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer from India. I enjoy creating responsive and interactive websites. Currently, I'm pursuing Computer Science and learning new technologies like HTML, CSS, JavaScript, and React.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BCA (Bachelor of Computer Applications)</strong> – XYZ University (2022 - 2025)</li>
+        <li><strong>12th (Science)</strong> – ABC School, CBSE (2022)</li>
+        <li><strong>10th</strong> – ABC School, CBSE (2020)</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>React (Basics)</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>📧 Email: rahulsharma@example.com</p>
+      <p>&copy; 2025 Rahul Sharma</p>
+    </footer>
+
+  </div>
+</body>
+</html>
